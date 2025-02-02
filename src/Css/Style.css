@@ -1,0 +1,221 @@
+body {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+.navbar .nav-item a {
+  color: white !important;
+}
+
+.navbar .nav-item:hover a {
+  color: #008080 !important;
+}
+
+.navbar .nav-item:hover button {
+  background-color: #008080 !important;
+  transform: translateY(-5px) !important;
+}
+
+.navbar .navbarsmall .nav-item a {
+  color: black !important;
+}
+
+.navbar {
+  z-index: 90 !important;
+}
+.modal-footer a{
+  color: #FF914C !important;
+  text-decoration: none !important;
+}
+.modal-footer a:hover{
+  text-decoration: underline !important;
+}
+.HomeSec::after {
+  content: "";
+  background-image: url("../assets/Pattern.webp"); 
+  opacity: 0.1;
+  z-index: 10; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: 100% 100%;
+  background-size: 300px;
+  inset: 0%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-180deg);
+}
+
+.HomeSec1 button:hover {
+  background-color: red !important;
+  
+}
+
+.HomeSec {
+  z-index: 77;
+  position: relative;
+  overflow: hidden;
+  font-family: Montserrat, sans-serif;
+}
+
+.buttonform1 {
+  background-color: #ff914c !important;
+  border: none !important;
+  padding: 20px 35px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  border-radius: 40px !important;
+  transition: all 0.3s ease;
+  z-index: 90 !important;
+}
+.HomeSecchild *{
+  z-index: 99 !important;
+}
+.learnworlds-divider-wrapper {
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.learnworlds-divider-wrapper.on-top {
+  top: 0;
+  transform: translateX(-50%) rotate(180deg);
+}
+
+.learnworlds-divider-wrapper.on-bottom {
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.lw-brand-fill {
+  fill: #008081; 
+}
+
+.learnworlds-divider-wrapper:not(.flip) .learnworlds-divider {
+  transform: scale(1.03, -1.03);
+}
+
+.learnworlds-divider {
+  height: 100%;
+  left: 0;
+  min-width: 15px !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.Contactpages .HeaderImage {
+  position: relative;
+  background-image: url(../assets/Contact.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+
+
+}
+
+.Contactpages .HeaderImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 128, 129,.9); 
+  z-index: 0!important;
+}
+.ContactInfo h6{
+  opacity: .8;
+}
+.ContactIcon a{
+  border-color: #FF914C;
+  color: #FF914C;
+  border-radius: 2px;
+}
+.Contactpages .HeaderImage .text-white {
+  position: relative !important;
+  z-index: 10 !important;
+}
+.detailsWebsite {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure it is above the dividers */
+  text-align: center;
+}
+.Footcolor li a ,.Footcolor{
+  color: #FF914C !important;
+}
+@media (max-width: 768px) {
+  .HomeSecchild {
+    text-align-last: center;
+  }
+
+  .HomeSecchild h1 {
+    font-size: 1.8rem;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .HomeSecchild p {
+    font-size: .95rem;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .buttonform1 {
+    padding: 15px 30px !important;
+    font-size: 16px !important;
+    width: 80%;
+  
+  }
+  
+  .RoadSec h2 {
+    font-size: 20px !important;
+  }
+
+  .RoadSecINFO {
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+  }
+
+  .RoadSecINFO button {
+    background-color: #ff914c !important;
+    border: none !important;
+    padding: 10px 7px !important;
+    font-size: 15px !important;
+    color: white !important;
+    border-radius: 40px !important;
+    transition: all 0.3s ease;
+  }
+  .RoadSecINFO p{
+    font-size: 15px !important;
+  }
+.brix p{
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+text-align: center;
+}
+ .carousel-control-prev , .carousel-control-next{
+transform: translateY(250%) !important;
+
+}
+.carousel-control-prev{
+  left: 30% !important;
+}
+.carousel-control-next{
+  right: 30% !important;
+}
+.carousel-inner{
+  height: 100vh !important;
+}
+.Foot{
+  font-size: .7rem !important;
+}
+.navbar .nav-item a {
+  color: black !important;
+}
+.CoursesPrice{
+text-align: center;
+}
+}

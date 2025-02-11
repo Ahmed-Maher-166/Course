@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar'
 function AboutUs() {
   return (
     <>
-       <div style={{ backgroundColor: '#094546' }}>
+       <div style={{ backgroundColor: '#094546' ,overflow:'hidden'}}>
          <Navbar/>
         </div>
         <div style={{ position: 'relative', height: '100vh'}}>
